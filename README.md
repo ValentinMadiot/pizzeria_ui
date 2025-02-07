@@ -17,7 +17,7 @@
 
 Création d'une landing page moderne et minimaliste pour un restaurant de pizza, développée en **HTML**, **CSS** et **JavaScript**. Enrichie d'animations fluides grâce à **ScrollReveal.js.**
 
-## <br /> <a name="technologies">🛠️ Technologies </a> 
+## <br /> <a name="technologies">🛠️ Technologies</a> 
 
 ⚡ **HTML** &nbsp;&nbsp; 
 🎨 **CSS** &nbsp;&nbsp; 
