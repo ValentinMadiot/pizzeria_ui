@@ -37,6 +37,12 @@ const scrollHeader = () => {
 window.addEventListener('scroll', shadowHeader);
 
 /*=============== SWIPER POPULAR ===============*/
+const swipe = new Swiper(".popular__swiper", {
+  loop: true,
+  grabCursor: true,
+  slidesPerView: "auto",
+  centeredSlides: "auto",
+});
 
 /*=============== SHOW SCROLL UP ===============*/
 

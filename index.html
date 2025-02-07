@@ -11,7 +11,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
 
       <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
@@ -85,8 +85,8 @@
                 <img src="assets/img/home-pizza.png" alt="image" class="home__pizza">
                 <img src="assets/img/home-board.png" alt="image" class="home__board">
 
-                <img src="assets/img/home__leaf-1.png" alt="image" class="home__ingredient home__leaf-1">
-                <img src="assets/img/home__leaf-2.png" alt="image" class="home__ingredient home__leaf-2">
+                <img src="assets/img/home-leaf-1.png" alt="image" class="home__ingredient home__leaf-1">
+                <img src="assets/img/home-leaf-2.png" alt="image" class="home__ingredient home__leaf-2">
 
                 <img src="assets/img/home-pepperoni.png" alt="image" class="home__ingredient home__pepperoni">
                 <img src="assets/img/home-mushroom.png" alt="image" class="home__ingredient home__mushroom">
@@ -119,7 +119,35 @@
 
          <!--==================== POPULAR ====================-->
          <section class="popular section" id="popular">
+          <div class="popular__container container grid">
+            <div class="popular__data">
+              <h2 class="section__title">Découvrez <br> les commandes populaires</h2>
+              <p class="popular__description">
+                Sélectionnez les saveurs les mieux préparées et les plus délicieuses.Nous avons rassemblé quelques recettes populaires du monde entier pour que vous puissiez choisir votre préférée.
+              </p>
+            </div>
             
+              <div class="popular__swiper swiper">
+                <img src="assets/img/popular-dish.png" alt="image" class="popular__dish">
+                
+                <div class="swiper-wrapper">
+                  <article class="popular__card swiper-slide">
+                    <img src="assets/img/popular-1.png" alt="image" class="popular__img">
+                   <h3 class="popular__title">Pizza Margherita</h3>
+                </article>
+                
+                <article class="popular__card swiper-slide">
+                  <img src="assets/img/popular-2.png" alt="image" class="popular__img">
+                  <h3 class="popular__title">Pizza Champignons</h3>
+                </article>
+                  
+                <article class="popular__card swiper-slide">
+                  <img src="assets/img/popular-3.png" alt="image" class="popular__img">
+                	<h3 class="popular__title">Pizza Pepperoni</h3>
+                </article>
+              </div>
+            </div>
+          </div>  
          </section>
 
          <!--==================== RECIPE ====================-->
@@ -150,7 +178,7 @@
       <script src=""></script>
       
       <!--=============== SWIPER JS ===============-->
-      <script src=""></script>
+      <script src="assets/js/swiper-bundle.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
