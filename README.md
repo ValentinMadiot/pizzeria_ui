@@ -4,22 +4,14 @@
     </a>
     </br>  
     </br>  
-  <h3 class="style" align="center">🍕Pizzeria</h3>  
-  <style>
-    .style {
-      /* text-transform: uppercase; */
-      letter-spacing: 3px;
-      font-size: 24px;
-      font-weight: 700;
-    }
-  </style>
+  <h3 align="center">🍕 Pizzeria</h3>  
 </div>
 
 ## <br /> 📌 Sommaire  
 
-&nbsp;&nbsp;&nbsp; 🎨 &nbsp; [**Introduction**](#-introduction)<br />
-&nbsp;&nbsp;&nbsp; 🛠️ &nbsp; [**Technologies**](#️-technologies)<br />
-&nbsp;&nbsp;&nbsp; 🚀 &nbsp; [**Installation**](#-installation)<br />   
+&nbsp;&nbsp;&nbsp; 🎨 &nbsp; [**Introduction**](#introduction)<br />
+&nbsp;&nbsp;&nbsp; 🛠️ &nbsp; [**Technologies**](#️technologies)<br />
+&nbsp;&nbsp;&nbsp; 🚀 &nbsp; [**Installation**](#installation)<br />   
 
 ## <br /> <a name="introduction">🎨 Introduction</a>
 
