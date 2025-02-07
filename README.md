@@ -1,28 +1,38 @@
 <div align="center">  
     <a href="https://pizzeria-paris.netlify.app/" target="_blank">  
       <img src="docs/pizza-restaurant_ui_img.png" alt="Aperçu du projet">  
-    </a>  
-  <h3 align="center">🍕 Pizzeria</h3>  
+    </a>
+    </br>  
+    </br>  
+  <h3 class="style" align="center">🍕Pizzeria</h3>  
+  <style>
+    .style {
+      /* text-transform: uppercase; */
+      letter-spacing: 3px;
+      font-size: 24px;
+      font-weight: 700;
+    }
+  </style>
 </div>
 
 ## <br /> 📌 Sommaire  
 
-🎨 [**Introduction**](#-introduction)<br />
-🛠️ [**Technologies**](#️-technologies)<br />
-🚀 [**Installation**](#-installation)<br />   
+&nbsp;&nbsp;&nbsp; 🎨 &nbsp; [**Introduction**](#-introduction)<br />
+&nbsp;&nbsp;&nbsp; 🛠️ &nbsp; [**Technologies**](#️-technologies)<br />
+&nbsp;&nbsp;&nbsp; 🚀 &nbsp; [**Installation**](#-installation)<br />   
 
-## <br /> 🎨 Introduction  
+## <br /> <a name="introduction">🎨 Introduction</a>
 
 Création d'une landing page moderne et minimaliste pour un restaurant de pizza, développée en **HTML**, **CSS** et **JavaScript**. Enrichie d'animations fluides grâce à **ScrollReveal.js.**
 
-## <br /> 🛠️ Technologies  
+## <br /> <a name="technologies">🛠️ Technologies </a> 
 
 ⚡ **HTML** &nbsp;&nbsp; 
 🎨 **CSS** &nbsp;&nbsp; 
 💡 **JavaScript** &nbsp;&nbsp;
 🎬 **ScrollReveal.js**
 
-## <br /> 🚀 Installation  
+## <br /> <a name="installation">🚀 Installation</a>  
 
 ### ✅ Pré-requis  
 
