@@ -29,7 +29,7 @@ const linkAction = () => {
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
 /*=============== ADD SHADOW HEADER ===============*/
-const scrollHeader = () => {
+const shadowHeader = () => {
   const header = document.getElementById('header')
   // Add a class if the bottom offset is greater than 560 of the viewport
   this.scrollY >= 50 ? header.classList.add('shadow-header') : header.classList.remove('shadow-header');
@@ -37,7 +37,7 @@ const scrollHeader = () => {
 window.addEventListener('scroll', shadowHeader);
 
 /*=============== SWIPER POPULAR ===============*/
-const swipe = new Swiper(".popular__swiper", {
+const swiperPopular = new Swiper(".popular__swiper", {
   loop: true,
   grabCursor: true,
   slidesPerView: "auto",
@@ -45,6 +45,13 @@ const swipe = new Swiper(".popular__swiper", {
 });
 
 /*=============== SHOW SCROLL UP ===============*/
+const scrollUp = () => {
+  const scrollUpElement = document.getElementById('scroll-up');
+  // When the scroll is higher than 350 viewport height, add the show-scroll class to the a tag with the scrollup class 
+  window.scrollY >= 350 ? scrollUpElement.classList.add('show-scroll') : scrollUpElement.classList.remove('show-scroll');
+}
+
+window.addEventListener('scroll', scrollUp);
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 

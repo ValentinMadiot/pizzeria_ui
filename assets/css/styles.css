@@ -432,12 +432,12 @@ img {
   overflow: visible;
 }
 
-:is(.swiper-slide-active, .swiper-slide-duplicate) .popular__img {
+:is(.swiper-slide-active, .swiper-slide-duplicate-active) .popular__img {
   transform:  scale(1) rotate(0);
 }
 
-:is(.swiper-slide-active, .swiper-slide-duplicate) .popular__title {
-  opacity: (1);
+:is(.swiper-slide-active, .swiper-slide-duplicate-active) .popular__title {
+  opacity: 1;
 }
 
 /*=============== RECIPE ===============*/
@@ -729,10 +729,29 @@ img {
 }
 
 /*=============== SCROLL UP ===============*/
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -50%;
+  background-color: var(--body-color);
+  box-shadow: 0 4px 16px hsla(353, 100%, 8%, .2);
+  color: var(--title-color);
+  display: inline-flex;
+  padding: 6px;
+  font-size: 1.25rem;
+  border-radius: .5rem;
+  z-index: var(--z-tooltip);
+  transition: bottom .4s, transform .4s;
+}
 
+.scrollup:hover {
+  transform: translateY(-.5rem);
+}
 
 /* Show Scroll Up */
-
+.show-scroll {
+  bottom: 3rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
