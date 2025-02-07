@@ -228,7 +228,9 @@ img {
 }
 
 /* Active link */
-
+.active-link::after {
+  width: 75%;
+}
 
 /*=============== HOME ===============*/
 .home__container {
